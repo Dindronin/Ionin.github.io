@@ -1,0 +1,230 @@
+<html>
+    <head>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="style2.CSS">
+        <title>
+
+        </title>
+        <style>
+.container{
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+}
+.box{
+    
+    background-color: brown;
+    margin: 4px;
+    
+}
+
+#menuPanel{
+   
+   grid-row-start:0 ;
+   grid-row-end:0 ;
+   grid-column-start:1 ;
+   grid-column-end:20 ;
+}
+
+#footer{
+    grid-row-start:9 ;
+   grid-row-end:13 ;
+   grid-column-start:1 ;
+   grid-column-end:20 ;
+}
+
+#education{
+    grid-row-start:2 ;
+   grid-row-end:9 ;
+   grid-column-start:1 ;
+   grid-column-end:7 ;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  height: 100%;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #b16666;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #830d0d;
+  color: white;
+}
+
+#newsContainer{
+  grid-row-start:2 ;
+   grid-row-end:9 ;
+   grid-column-start:9 ;
+   grid-column-end:20 ;
+}
+a:hover{
+  color:crimson;
+}
+a{
+  color:cornsilk;
+}  
+#logoScale{
+  width: 100px;
+  height: 100px;
+}   
+
+@media screen and (max-width:700px){
+  .container {
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 10px; 
+}
+
+.box {
+  flex: 1 0 30%; 
+  background-color: brown;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+#menuPanel {
+  order: 1; 
+  width: 100%; 
+}
+
+#footer {
+  order: 4; 
+  width: 100%; 
+}
+
+#education {
+  order: 2; 
+  width: 100%; 
+}
+
+.topnav {
+  overflow: auto; 
+  background-color: #333;
+  height: auto; 
+}
+
+.topnav a {
+  display: block; 
+  padding: 10px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+#newsContainer {
+  order: 3;
+  width: 100%; 
+}
+
+a:hover {
+  color: crimson;
+}
+
+a {
+  color: cornsilk;
+}
+
+#logoScale {
+  width: 50%; 
+  height: auto; 
+}
+
+#newsTitle{
+  display: flex;
+  height: min-content;
+  width: min-content;
+  
+}
+
+@media (max-width: 768px) {
+  
+  .box {
+    flex: 1 0 50%; 
+  }
+
+  #newsContainer, #education {
+    display: flex;}
+       }
+  
+  #mapScale{
+    width: auto;
+  }     
+}   
+        
+        </style>
+    </head>
+    <body>
+
+<div class="container">
+    <div id="menuPanel" >
+      
+        <div class="topnav">
+            <a class="active" href="Description.HTML">Про сайт</a>
+            <a href="#footer">Контакти</a>
+            <a href="#newsContainer">Новини</a>
+            <a href="album.HTML">Галерея</a>
+            
+          </div>
+          
+      </div>
+    
+    <div id="footer" class="box">
+      <div class="paddinger"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2587.2027587886487!2d34.56604600413936!3d49.57506417476435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d82f64cd0cbd85%3A0x528a08266c1d4938!2sYuriy%20Kondratyuk%20Poltava%20Polytechnic!5e0!3m2!1sen!2sua!4v1718118916928!5m2!1sen!2sua" width="1850" height="300" style="border:0;" allowfullscreen="" loading="lazy" id="mapScale" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    <p  class="textStyle paddinger" ><i class="bi bi-telephone"></i> +333333222111</p>
+    <p class="textStyle paddinger"><i class="bi bi-envelope"></i> Abra@cadabra.com</p>
+    
+    </div> 
+    <div id="education" class="box scroller">
+        <p id="newsTitle">Список закладів вищої освіти України</p>
+        
+          <div>
+            <div class="newsBorders textStyle">КИЇВСЬКИЙ НАЦІОНАЛЬНИЙ УНІВЕРСИТЕТ КУЛЬТУРИ І МИСТЕЦТВ (КНУКІМ):Київський національний університет культури і мистецтв є лідером серед мистецьких закладів вищої освіти України та має найвищий -IV-й рівень акредитації. Це університет майбутнього, з новими інформаційними, мультимедійними технологіями, престижною бізнес-освітою. Гарантує високу фахову підготовку, незабутні студентські роки!</div>
+            <div class="newsBorders textStyle">УНІВЕРСИТЕТ ЕКОНОМІКИ ТА ПРАВА "КРОК":Університет «КРОК» є одним із перших приватних ЗВО України (заснований у 1992 році) та має вищий за національною класифікацією IV рівень акредитації.
+            Сьогодні Університет є частиною великої освітньої корпорації, де забезпечується якісна робота з надання освітніх послуг та розвитку студентів як професіоналів у обраних галузях і як цікавих особистостей. </div>
+            <div class="newsBorders textStyle">Міжрегіональна академія управління персоналом (МАУП): Міжрегіональна Академія управління персоналом (МАУП) була заснована в 1989 році як недержавний вищий навчальний і науковий заклад. МАУП є найбільшим економіко-гуманітарним вищим навчальним закладом України, в якому навчаються студенти з 39 країн світу за 20 спеціальностями та 109 спеціалізаціями.</div>
+            <div class="newsBorders textStyle">Київський університет культури (КУК): В Університеті створені комфортні умови для професійного та особистісного розвитку студентів: мультимедійні лабораторії, потужний професорсько-викладацький склад, інноваційні методи навчання, дуальна освіта, що   забезпечує  високий рівень підготовки фахівців  з престижних  творчих і бізнес-спеціальностей.</div>
+            <div class="newsBorders textStyle">Європейський університет (ЄУ): Європейський університет - перший і єдиний приватний навчальний заклад з безперервною системою освіти від ясел-садка до аспірантури і докторантури, в якому навчається понад 20 000 студентів, в тому числі, іноземці з 15 країн світу.</div>
+            <div class="newsBorders textStyle">Київська Академія прикладних мистецтв: Київська Академія прикладних мистецтв - це недержавний вищий навчальний заклад, який вже понад 23-х років навчає та випускає у світ кращих фахівців у сфері дизайну, моди та краси! Навчальні структури: Інститут, Коледж, Ліцей.КАПМ також проводить курси в рамках школи дизайну "ADS" та Міжнародної школи краси "IBS" в Києві, Одесі та Варшаві!</div>
+            <div class="newsBorders textStyle">Українсько-американський університет Конкордія: Програма підготовки бакалаврів витримує ідеальний баланс між кількістю та інформативністю наших курсів. Освітня програма надає лише актуальні знання з точки зору вищої та середньої ланки менеджменту й дозволяє поєднати теорію та практику широкомасштабного управління.</div>
+            <div class="newsBorders textStyle">IT STEP UNIVERSITY: «IT STEP University» - це перший ІТ-університет в Україні, який спеціалізується на ІТ-освіті. Навчальні програми – це унікальні авторські методики, що отримали високу оцінку IT-індустрії, а викладачі –практики з найбільших ІТ-компаній України. Університет готує бакалаврів та магістрів за спеціальностями, які є актуальними на ІТ-ринку.</div>
+            <div class="newsBorders textStyle">Академія адвокатури України (ААУ): Академія адвокатури України — вищий навчальний заклад України, IV рівня акредитації, розташований у Києві, здійснює освітню діяльність на підставі ліцензії Міністерства освіти і науки України серія АЕ № 636100 від 10 березня 2015 року. Академія заснована у 1995 році.</div>
+        </div>
+        
+    </div>
+    <div id="newsContainer" class="box scroller">
+      <p id="newsTitle">Новини</p>
+      <div>
+        <div class="newsBorders textStyle"><a href="https://gwaramedia.com/try-kharkivskykh-universytety-uviyshly-v-top-1500-krashchykh-vnz-svitu/">Три харківських університети увійшли в ТОП-1500 кращих ВНЗ світу</a></div>
+        <div class="newsBorders textStyle"><a href="https://zn.ua/ukr/EDUCATION/ukrajinski-universiteti-jak-privabiti-j-utrimati-talanti.html">УКРАЇНСЬКІ УНІВЕРСИТЕТИ: ЯК ПРИВАБИТИ Й УТРИМАТИ ТАЛАНТИ?</a></div>
+        <div class="newsBorders textStyle"><a href="https://www.unian.ua/society/maup-v-triyci-krashchih-universitetiv-ukrajini-v-svitovomu-reytingu-the-2024-12665292.html">МАУП в трійці кращих університетів України в світовому рейтингу THE 2024</a></div>
+        <div class="newsBorders textStyle"><a href="https://www.rbc.ua/rus/news/sered-naykrashchih-universitetiv-svitu-11-1718011571.html">Серед найкращих університетів світу - 11 вишів України. Хто потрапив у рейтинг</a></div>
+        <div class="newsBorders textStyle"><a href="https://nv.ua/ukr/ukraine/events/ukrajina-v-yes-universitet-u-kiyevi-otrimav-knizhki-z-yevropi-v-ramkah-integraciji-v-kulturniy-prostir-50426567.html">У КНУБА отримали книги з Європи для студентів у межах масштабної міжнародної ініціативи</a></div>
+        <div class="newsBorders textStyle"><a href="https://visitukraine.today/uk/blog/3804/european-education-in-ukraine-which-universities-offer-double-degree-programmes">Європейська освіта в Україні: які університети пропонують програми подвійних дипломів</a></div>
+        <div class="newsBorders textStyle"><a href="https://novadoba.com.ua/428361-u-chnu-planuyut-stvoryty-tsentr-reabilitatsiyi-ta-rozvytku-veteraniv-vijny.html">У ЧНУ планують створити центр реабілітації та розвитку ветеранів війни</a></div>
+        <div class="newsBorders textStyle"><a href="https://lb.ua/society/2024/06/14/618783_volodimir_bugrov_reforma_osviti_.html">Володимир Бугров: «Реформа освіти — це не спринт і не марафон. А всі треки одночасно»</a></div>
+        <div class="newsBorders textStyle"><a href="https://nv.ua/ukr/world/countries/reyting-vishiv-svitu-yaki-vnz-u-topi-ta-yaki-universiteti-ukrajini-potrapili-u-spisok-50424775.html">Найкращі університети світу. Які українські виші у свіжому рейтингу Quacquarelli Symonds і чому там серед лідерів тільки Британія і США</a></div>
+    </div>
+    </div>
+
+  </div>
+       
+        
+        
+        
+        <scipt></scipt>
+    </body>
+</html>

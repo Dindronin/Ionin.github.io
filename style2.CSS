@@ -1,0 +1,47 @@
+body{
+    background-color:darkgray
+}
+
+.textStyle{
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+    font-style:normal;
+}
+
+.borderss{
+    border: 1px solid black;
+    width: auto;
+    float: left;
+    overflow: hidden;
+    
+
+}
+
+#newsTitle{
+    font-size: 20px;
+    color:cornsilk;
+    border: solid rgb(228, 112, 70);
+    background-color: burlywood;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 0%;
+}
+
+.newsBorders{
+    border: 1px solid rgb(71, 59, 45);
+    background-color: rgb(190, 159, 124);
+    margin: 8px;
+
+    
+    
+    
+}
+.scroller{
+    overflow: scroll;
+}
+.margin{
+
+}
+.paddinger{
+    padding: 1%;
+}
